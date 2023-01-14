@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: #000000;
+}
+
+#Weather-title{
+    position: absolute;
+    width: 692.27px;
+    height: 144px;
+    left: 518px;
+    top: 101px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 121px;
+    
+    color: #FFFFFF;
+}
+
+a{
+    position: absolute;
+    text-decoration: none;
+    width: 492px;
+    height: 58px;
+    left: 577px;
+    top: 313px;
+    
+    background: #FFFFFF;
+}
+
+#btn{
+    position: absolute;
+    width: 331px;
+    height: 33px;
+    left: 658px;
+    top: 326px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    
+    color: #000000;
+}
+
+

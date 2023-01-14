@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.On-button-click{
+    position: relative;
+    width: 1728px;
+    height: 2801px;
+
+    background: #FFFFFF;
+}
+
+.weather-api{
+    position: absolute;
+    width: 1728px;
+    height: 1271px;
+    left: 0px;
+    top: 0px;
+
+    background: #000000;
+}
+
+#Weather-title{
+    position: absolute;
+    width: 692.27px;
+    height: 144px;
+    left: 518px;
+    top: 101px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 121px;
+    
+    color: #FFFFFF;
+}
+
+#Lat{
+    position: absolute;
+    width: 669.46px;
+    height: 74px;
+    left: 154px;
+    top: 323px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 61px;
+    
+    color: #FFFFFF;
+}
+
+#Long{
+    position: absolute;
+    width: 669.46px;
+    height: 74px;
+    left: 887px;
+    top: 335px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 61px;
+    
+    color: #FFFFFF;
+}
+
+#map{
+    position: absolute;
+    width: 1420px;
+    height: 655px;
+    left: 154px;
+    top: 487px;
+    
+    /* background: url(Screenshot 2022-12-14 at 7.18.png); */
+}
+
+
+
+
+#Weather-Data-title{
+    position: absolute;
+    width: 912px;
+    height: 160px;
+    left: 62px;
+    top: 1389px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 121px;
+    
+    color: #000000;
+}
+
+
+.weather-data-form{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 1585px;
+    height: 1120px;
+    left: 62px;
+    top: 1614px;
+    
+    border: 2px solid #000000;
+}
+
+.weather-data-form #Location{
+    position: absolute;
+    width: 669.46px;
+    height: 74px;
+    padding: 56px 861.54px 990px 54px;
+    /* left: 116px;
+    top: 1670px; */
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 61px;
+    
+    color: #000000;
+}
+ 
+.weather-data-form #Latitude{
+    position: absolute;
+    width: 669.46px;
+    height: 74px;
+    left: 54px;
+    top: 165px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 61px;
+    
+    color: #000000;
+}
+
+.weather-data-form #Longitude{
+    position: absolute;
+    width: 669.46px;
+    height: 74px;
+    left: 787px;
+    top: 177px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 61px;
+    
+    color: #000000;
+}
+
+.weather-data-form #TimeZone{
+    position: absolute;
+    width: 669.46px;
+    height: 74px;
+    left: 54px;
+    top: 274px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 61px;
+
+    color: #000000;
+}
+
+.weather-data-form #Wind-Speed{
+    position: absolute;
+    width: 669.46px;
+    height: 74px;
+    left: 54px;
+    top: 383px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 61px;
+    
+    color: #000000;
+}
+
+.weather-data-form #Pressure{
+    position: absolute;
+    width: 669.46px;
+    height: 74px;
+    left: 54px;
+    top: 486px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 61px;
+    
+    color: #000000;
+}
+
+.weather-data-form #Humidity{
+    position: absolute;
+    width: 669.46px;
+    height: 74px;
+    left: 54px;
+    top: 589px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 61px;
+    
+    color: #000000;
+}
+
+.weather-data-form #Wind-Direction{
+    position: absolute;
+    width: 669.46px;
+    height: 74px;
+    left: 54px;
+    top: 692px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 61px;
+    
+    color: #000000;
+}
+
+.weather-data-form #UV-Index{
+    position: absolute;
+    width: 669.46px;
+    height: 74px;
+    left: 54px;
+    top: 801px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 61px;
+    
+    color: #000000;
+}
+
+
+.weather-data-form #Feels-Like{
+    position: absolute;
+    width: 669.46px;
+    height: 74px;
+    left: 54px;
+    top: 904px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 61px;
+    
+    color: #000000;
+}

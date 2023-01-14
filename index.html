@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page after button click</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Landing page after button click -->
+    <div class="On-button-click">
+
+        <div class="weather-api">
+            <p id="Weather-title">Weather Api</p>
+            <form>
+                <label id="Lat">Lat:</label>
+                <label id="Long">Long:</label>
+            </form>
+            <iframe id="map" src="https://maps.google.com/maps?q=16.4316176, 80.5703655&z=15&output=embed"></iframe>
+        </div>
+
+        
+        <div class="weather-data">
+            <p id="Weather-Data-title">Weather Data</p>
+            <form class="weather-data-form">
+                <label id="Location">Location:</label>
+                <label id="Latitude">Lat:</label>
+                <label id="Longitude">Long:</label>
+                <label id="TimeZone">TimeZone:</label>
+                <label id="Wind-Speed">Wind Speed:</label>
+                <label id="Pressure">Pressure:</label>
+                <label id="Humidity">Humidity:</label>
+                <label id="Wind-Direction">Wind Direction:</label>
+                <label id="UV-Index">UV Index:</label>
+                <label id="Feels-Like">Feels Like:</label>
+            </form>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
